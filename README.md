@@ -1,1 +1,2 @@
-# Starfish6174
+# DBMGT6174
+Bot template for glitch.
