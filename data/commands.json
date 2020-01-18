@@ -1,1 +1,1264 @@
-[null,{"name":"Help","permissions":"NONE","restriction":"1","_id":"yNahn","actions":[{"time":"1","measurement":"1","name":"Wait"},{"storage":"0","varName":"","name":"Delete Message"},{"channel":"0","varName":"","message":"Did you really think I would help you? No way!","storage":"1","varName2":"Mess","iffalse":"0","iffalseVal":"","name":"Send Message"},{"time":"10","measurement":"1","name":"Wait"},{"storage":"1","varName":"Mess","name":"Delete Message"}]},{"name":"Fuku","permissions":"NONE","restriction":"1","_id":"FrChO","actions":[{"time":"1","measurement":"1","name":"Wait"},{"storage":"0","varName":"","name":"Delete Message"},{"info":"1","find":"Admin to tell admin to fuck off","storage":"1","varName":"Role","name":"Find Role"},{"url":"resources/Fuko.jpg","storage":"1","varName":"Fuko","name":"Create Image"},{"storage":"1","varName":"Fuko","channel":"0","varName2":"","message":"${tempVars(\"Role\")}\nNo starfishes for any of you! Fuck off!","name":"Send Image"}]},{"name":"Fuk","permissions":"NONE","restriction":"1","_id":"nzhVK","actions":[{"time":"1","measurement":"1","name":"Wait"},{"storage":"0","varName":"","name":"Delete Message"},{"url":"resources/Fuko.jpg","storage":"1","varName":"Fuko","name":"Create Image"},{"storage":"1","varName":"Fuko","channel":"0","varName2":"","message":"${mentionedUser}\nNo starfishes for you! Fuck off!","name":"Send Image"}]},{"name":"Aw","permissions":"NONE","restriction":"1","_id":"oPdDA","actions":[{"time":"1","measurement":"1","name":"Wait"},{"storage":"0","varName":"","name":"Delete Message"},{"title":"","author":"","color":"","url":"","authorIcon":"","authorUrl":"","imageUrl":"https://static1.fjcdn.com/comments/Thats+it+i+here+by+challenge+you+to+_95d361eb6cf1f0440789ea4271a177e5.png","thumbUrl":"","timestamp":"false","debug":"false","text":"","year":"","month":"","day":"","hour":"","minute":"","second":"","storage":"1","varName":"Embed","name":"Create Embed Message"},{"storage":"1","varName":"Embed","channel":"0","varName2":"","storage3":"0","varName3":"","iffalse":"0","iffalseVal":"","name":"Send Embed Message"}]},{"name":"Rape","permissions":"NONE","restriction":"1","_id":"yGjrN","actions":[{"time":"1","measurement":"1","name":"Wait"},{"storage":"0","varName":"","name":"Delete Message"},{"title":"","author":"","color":"","url":"","authorIcon":"","authorUrl":"","imageUrl":"https://pics.awwmemes.com/aww-shit-nigga-that-ilitch-gettin-raped-oh-my-4410363.png","thumbUrl":"","timestamp":"false","debug":"false","text":"","year":"","month":"","day":"","hour":"","minute":"","second":"","storage":"1","varName":"Embed","name":"Create Embed Message"},{"storage":"1","varName":"Embed","channel":"0","varName2":"","storage3":"0","varName3":"","iffalse":"0","iffalseVal":"","name":"Send Embed Message"}]},{"name":"PG","permissions":"NONE","restriction":"1","_id":"dUfyG","actions":[{"time":"1","measurement":"1","name":"Wait"},{"storage":"0","varName":"","name":"Delete Message"},{"title":"","author":"","color":"","url":"","authorIcon":"","authorUrl":"","imageUrl":"https://i.kym-cdn.com/photos/images/original/000/964/994/9bf.png","thumbUrl":"","timestamp":"false","debug":"false","text":"","year":"","month":"","day":"","hour":"","minute":"","second":"","storage":"1","varName":"Embed","name":"Create Embed Message"},{"storage":"1","varName":"Embed","channel":"0","varName2":"","storage3":"0","varName3":"","iffalse":"0","iffalseVal":"","name":"Send Embed Message"}]},{"name":"Star","permissions":"NONE","restriction":"1","_id":"qmZXP","actions":[{"time":"1","measurement":"1","name":"Wait"},{"storage":"0","varName":"","name":"Delete Message"},{"title":"","author":"","color":"","url":"","authorIcon":"","authorUrl":"","imageUrl":"https://i.kym-cdn.com/photos/images/newsfeed/000/931/361/06e.jpg","thumbUrl":"","timestamp":"false","debug":"false","text":"","year":"","month":"","day":"","hour":"","minute":"","second":"","storage":"1","varName":"Embed","name":"Create Embed Message"},{"storage":"1","varName":"Embed","channel":"0","varName2":"","storage3":"0","varName3":"","iffalse":"0","iffalseVal":"","name":"Send Embed Message"}]},{"name":"Give","permissions":"ADMINISTRATOR","restriction":"2","_id":"KSDPg","actions":[{"time":"1","measurement":"1","name":"Wait"},{"storage":"0","varName":"","name":"Delete Message"},{"url":"resources/Starfish.jpg","storage":"1","varName":"Starfish","name":"Create Image"},{"storage":"1","varName":"Starfish","channel":"0","varName2":"","message":"${mentionedUser}","name":"Send Image"}]},{"name":"Award","permissions":"NONE","restriction":"4","_id":"UcvZQ","actions":[{"time":"1","measurement":"1","name":"Wait"},{"storage":"0","varName":"","name":"Delete Message"},{"url":"resources/Starfish.jpg","storage":"1","varName":"Starfish","name":"Create Image"},{"storage":"1","varName":"Starfish","channel":"0","varName2":"","message":"${mentionedUser}","name":"Send Image"}]},{"name":"your pajamas","permissions":"NONE","restriction":"4","_id":"tZvmk","actions":[{"time":"1","measurement":"1","name":"Wait"},{"storage":"0","varName":"","name":"Delete Message"},{"url":"resources/Sleep.jpg","storage":"1","varName":"Sleep","name":"Create Image"},{"storage":"1","varName":"Sleep","channel":"0","varName2":"","message":"Alright!","name":"Send Image"}],"comType":"1"},{"name":"Sleep Fuko","permissions":"NONE","restriction":"4","_id":"sBzHc","actions":[{"time":"1","measurement":"1","name":"Wait"},{"storage":"0","varName":"","name":"Delete Message"},{"url":"resources/Sleep.jpg","storage":"1","varName":"Sleep","name":"Create Image"},{"storage":"1","varName":"Sleep","channel":"0","varName2":"","message":"Alright!","name":"Send Image"}],"comType":"1"}]
+[
+  null,
+  {
+    "name": "Help",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "yNahn",
+    "actions": [
+      { "time": "3", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      {
+        "member": "1",
+        "varName": "",
+        "info": "2",
+        "storage": "1",
+        "varName2": "Name",
+        "name": "Store Member Info"
+      },
+      { "storage": "0", "varName": "", "name": "Start Typing" },
+      { "time": "4", "measurement": "1", "name": "Wait" },
+      {
+        "debu": "1",
+        "numbefst2": ".",
+        "numbefstselect": "1",
+        "sort": "1",
+        "start": "username",
+        "middle": "-",
+        "end": "result",
+        "getresults": "3",
+        "dataName": "Starfish",
+        "varName2": "Top3",
+        "storage": "1",
+        "name": "Store Member Data List"
+      },
+      {
+        "list": "7",
+        "varName": "Top3",
+        "getType": "3",
+        "position": "3",
+        "storage": "1",
+        "varName2": "Third",
+        "name": "Get Item from List"
+      },
+      {
+        "storage": "1",
+        "varName": "Name",
+        "comparison": "1",
+        "value": "tempVars(\"Third\")",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "3",
+        "iffalseVal": "3",
+        "name": "Check Variable"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "If Fuko told you, she would have to kill you, that's why she won't tell you!",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "storage": "0", "varName": "", "name": "Stop Typing" },
+      { "name": "End Action Sequence" },
+      {
+        "list": "7",
+        "varName": "Top3",
+        "getType": "3",
+        "position": "2",
+        "storage": "1",
+        "varName2": "Second",
+        "name": "Get Item from List"
+      },
+      {
+        "storage": "1",
+        "varName": "Name",
+        "comparison": "1",
+        "value": "tempVars(\"Second\")",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "3",
+        "iffalseVal": "3",
+        "name": "Check Variable"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "Fuko likes you... but there's really no command list!",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "storage": "0", "varName": "", "name": "Stop Typing" },
+      { "name": "End Action Sequence" },
+      {
+        "list": "7",
+        "varName": "Top3",
+        "getType": "0",
+        "position": "2",
+        "storage": "1",
+        "varName2": "First",
+        "name": "Get Item from List"
+      },
+      {
+        "storage": "1",
+        "varName": "Name",
+        "comparison": "1",
+        "value": "tempVars(\"First\")",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "3",
+        "iffalseVal": "5",
+        "name": "Check Variable"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "Fine, Fuko will give it just to you, no one else!",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "storage": "0", "varName": "", "name": "Stop Typing" },
+      {
+        "behavior": "0",
+        "interpretation": "0",
+        "code": "const commands = require('./data/commands.json')\nconst array = []\nfor (let i = 1; !!commands[i]; i++) {\n  array.push(commands[i].name)\n} \nthis.storeValue(array.join(', '), 1, 'commands', cache)",
+        "storage": "0",
+        "varName": "",
+        "name": "Run Script"
+      },
+      {
+        "channel": "1",
+        "varName": "",
+        "message": "${tempVars(\"commands\")}",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "name": "End Action Sequence" },
+      {
+        "member": "1",
+        "varName": "",
+        "dataName": "Starfish",
+        "comparison": "4",
+        "value": "0",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "3",
+        "iffalseVal": "3",
+        "name": "Check Member Data"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "Fuko only helps those who work for it!",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "storage": "0", "varName": "", "name": "Stop Typing" },
+      { "name": "End Action Sequence" },
+      {
+        "member": "1",
+        "varName": "",
+        "dataName": "Starfish",
+        "comparison": "3",
+        "value": "1",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "0",
+        "iffalseVal": "3",
+        "name": "Check Member Data"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "Did you really think Fuko would help you? No way!",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "storage": "0", "varName": "", "name": "Stop Typing" }
+    ],
+    "comType": "0"
+  },
+  {
+    "name": "Fuku",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "FrChO",
+    "actions": [
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      {
+        "info": "1",
+        "find": "Admin to tell admin to fuck off",
+        "storage": "1",
+        "varName": "Role",
+        "name": "Find Role"
+      },
+      {
+        "url": "resources/Fuko.jpg",
+        "storage": "1",
+        "varName": "Fuko",
+        "name": "Create Image"
+      },
+      {
+        "storage": "1",
+        "varName": "Fuko",
+        "channel": "0",
+        "varName2": "",
+        "message": "${tempVars(\"Role\")}\nNo starfishes for any of you! Fuck off!",
+        "name": "Send Image"
+      }
+    ]
+  },
+  {
+    "name": "Fuk",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "nzhVK",
+    "actions": [
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      {
+        "url": "resources/Fuko.jpg",
+        "storage": "1",
+        "varName": "Fuko",
+        "name": "Create Image"
+      },
+      {
+        "storage": "1",
+        "varName": "Fuko",
+        "channel": "0",
+        "varName2": "",
+        "message": "${mentionedUser}\nNo starfishes for you! Fuck off!",
+        "name": "Send Image"
+      }
+    ]
+  },
+  {
+    "name": "Aw",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "oPdDA",
+    "actions": [
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      {
+        "title": "",
+        "author": "",
+        "color": "",
+        "url": "",
+        "authorIcon": "",
+        "authorUrl": "",
+        "imageUrl": "https://bigmemes.funnyjunk.com/comments/It+goin+down+now+es+_95d361eb6cf1f0440789ea4271a177e5.png",
+        "thumbUrl": "",
+        "timestamp": "false",
+        "debug": "false",
+        "text": "",
+        "year": "",
+        "month": "",
+        "day": "",
+        "hour": "",
+        "minute": "",
+        "second": "",
+        "storage": "1",
+        "varName": "Embed",
+        "name": "Create Embed Message"
+      },
+      {
+        "storage": "1",
+        "varName": "Embed",
+        "channel": "0",
+        "varName2": "",
+        "storage3": "0",
+        "varName3": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Embed Message"
+      }
+    ]
+  },
+  {
+    "name": "Rape",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "yGjrN",
+    "actions": [
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      {
+        "title": "",
+        "author": "",
+        "color": "",
+        "url": "",
+        "authorIcon": "",
+        "authorUrl": "",
+        "imageUrl": "https://pics.awwmemes.com/aww-shit-nigga-that-ilitch-gettin-raped-oh-my-4410363.png",
+        "thumbUrl": "",
+        "timestamp": "false",
+        "debug": "false",
+        "text": "",
+        "year": "",
+        "month": "",
+        "day": "",
+        "hour": "",
+        "minute": "",
+        "second": "",
+        "storage": "1",
+        "varName": "Embed",
+        "name": "Create Embed Message"
+      },
+      {
+        "storage": "1",
+        "varName": "Embed",
+        "channel": "0",
+        "varName2": "",
+        "storage3": "0",
+        "varName3": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Embed Message"
+      }
+    ]
+  },
+  {
+    "name": "PG",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "dUfyG",
+    "actions": [
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      {
+        "title": "",
+        "author": "",
+        "color": "",
+        "url": "",
+        "authorIcon": "",
+        "authorUrl": "",
+        "imageUrl": "https://i.kym-cdn.com/photos/images/original/000/964/994/9bf.png",
+        "thumbUrl": "",
+        "timestamp": "false",
+        "debug": "false",
+        "text": "",
+        "year": "",
+        "month": "",
+        "day": "",
+        "hour": "",
+        "minute": "",
+        "second": "",
+        "storage": "1",
+        "varName": "Embed",
+        "name": "Create Embed Message"
+      },
+      {
+        "storage": "1",
+        "varName": "Embed",
+        "channel": "0",
+        "varName2": "",
+        "storage3": "0",
+        "varName3": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Embed Message"
+      }
+    ]
+  },
+  {
+    "name": "Star",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "qmZXP",
+    "actions": [
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      {
+        "title": "",
+        "author": "",
+        "color": "",
+        "url": "",
+        "authorIcon": "",
+        "authorUrl": "",
+        "imageUrl": "https://i.kym-cdn.com/photos/images/newsfeed/000/931/361/06e.jpg",
+        "thumbUrl": "",
+        "timestamp": "false",
+        "debug": "false",
+        "text": "",
+        "year": "",
+        "month": "",
+        "day": "",
+        "hour": "",
+        "minute": "",
+        "second": "",
+        "storage": "1",
+        "varName": "Embed",
+        "name": "Create Embed Message"
+      },
+      {
+        "storage": "1",
+        "varName": "Embed",
+        "channel": "0",
+        "varName2": "",
+        "storage3": "0",
+        "varName3": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Embed Message"
+      }
+    ]
+  },
+  {
+    "name": "Give",
+    "permissions": "ADMINISTRATOR",
+    "restriction": "2",
+    "_id": "KSDPg",
+    "actions": [
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      {
+        "url": "resources/Starfish.jpg",
+        "storage": "1",
+        "varName": "Starfish",
+        "name": "Create Image"
+      },
+      {
+        "storage": "1",
+        "varName": "Starfish",
+        "channel": "0",
+        "varName2": "",
+        "message": "${mentionedUser}",
+        "name": "Send Image"
+      }
+    ]
+  },
+  {
+    "name": "Award",
+    "permissions": "NONE",
+    "restriction": "4",
+    "_id": "UcvZQ",
+    "actions": [
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      {
+        "url": "resources/Starfish.jpg",
+        "storage": "1",
+        "varName": "Starfish",
+        "name": "Create Image"
+      },
+      {
+        "storage": "1",
+        "varName": "Starfish",
+        "channel": "0",
+        "varName2": "",
+        "message": "${mentionedUser}",
+        "name": "Send Image"
+      },
+      {
+        "member": "0",
+        "varName": "",
+        "dataName": "Starfish",
+        "defaultVal": "0",
+        "storage": "1",
+        "varName2": "Starfish",
+        "name": "Store Member Data"
+      },
+      {
+        "member": "0",
+        "varName": "",
+        "dataName": "Starfish",
+        "changeType": "1",
+        "value": "1",
+        "name": "Control Member Data"
+      }
+    ],
+    "comType": "0"
+  },
+  {
+    "name": "Fuko, who do you like",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "CSdSY",
+    "actions": [
+      { "time": "3", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "time": "5", "measurement": "1", "name": "Wait" },
+      { "storage": "0", "varName": "", "name": "Start Typing" },
+      { "time": "10", "measurement": "1", "name": "Wait" },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "Hmmm....",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "storage": "0", "varName": "", "name": "Stop Typing" },
+      { "time": "5", "measurement": "1", "name": "Wait" },
+      { "storage": "0", "varName": "", "name": "Start Typing" },
+      { "time": "5", "measurement": "1", "name": "Wait" },
+      { "storage": "0", "varName": "", "name": "Stop Typing" },
+      { "time": "10", "measurement": "1", "name": "Wait" },
+      { "storage": "0", "varName": "", "name": "Start Typing" },
+      {
+        "debu": "1",
+        "numbefst2": ".",
+        "numbefstselect": "2",
+        "sort": "1",
+        "start": "username",
+        "middle": "⭐",
+        "end": "result",
+        "getresults": "3",
+        "dataName": "Starfish",
+        "varName2": "Top3",
+        "storage": "1",
+        "name": "Store Member Data List"
+      },
+      { "time": "25", "measurement": "1", "name": "Wait" },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "These are Fuko's top three favorite people, Fuko didn't know how to order them, so she ordered them by points!\n```\n${tempVars(\"Top3\")}\n```",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "storage": "0", "varName": "", "name": "Stop Typing" }
+    ],
+    "comType": "1",
+    "_aliases": [
+      "Fuko, who is your favorite",
+      "Fuko, who do you love",
+      "Fuko, who are your favorites",
+      "Fuko who are your favorites",
+      "Fuko who do you like",
+      "Fuko who do you love",
+      "Fuko who is your favorite"
+    ]
+  },
+  {
+    "name": "Awrd",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "eDFNl",
+    "actions": [
+      {
+        "info": "0",
+        "find": "216796198185467904",
+        "storage": "1",
+        "varName": "Rai",
+        "find2": "0",
+        "name": "Find Member"
+      },
+      {
+        "member": "2",
+        "varName": "Rai",
+        "info": "2",
+        "storage": "1",
+        "varName2": "Name",
+        "name": "Store Member Info"
+      },
+      {
+        "member": "1",
+        "varName": "",
+        "info": "2",
+        "storage": "1",
+        "varName2": "Author",
+        "name": "Store Member Info"
+      },
+      {
+        "storage": "1",
+        "varName": "Author",
+        "comparison": "1",
+        "value": "tempVars(\"Name\")",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "1",
+        "iffalseVal": "",
+        "name": "Check Variable"
+      },
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      {
+        "url": "resources/Starfish.jpg",
+        "storage": "1",
+        "varName": "Starfish",
+        "name": "Create Image"
+      },
+      {
+        "storage": "1",
+        "varName": "Starfish",
+        "channel": "0",
+        "varName2": "",
+        "message": "${mentionedUser}",
+        "name": "Send Image"
+      }
+    ],
+    "comType": "0"
+  },
+  {
+    "name": "your pajamas",
+    "permissions": "NONE",
+    "restriction": "4",
+    "_id": "tZvmk",
+    "actions": [
+      { "time": "3", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      {
+        "url": "resources/Sleep.jpg",
+        "storage": "1",
+        "varName": "Sleep",
+        "name": "Create Image"
+      },
+      { "storage": "0", "varName": "", "name": "Start Typing" },
+      { "time": "4", "measurement": "1", "name": "Wait" },
+      {
+        "storage": "1",
+        "varName": "Sleep",
+        "channel": "0",
+        "varName2": "",
+        "message": "Fuko is already in them! So comfy.... Fuko could just.... ZZzzZZzz",
+        "name": "Send Image"
+      },
+      { "storage": "0", "varName": "", "name": "Stop Typing" },
+      { "status": "2", "name": "Set Bot Status" }
+    ],
+    "comType": "1"
+  },
+  {
+    "name": "Sleep Fuko",
+    "permissions": "ADMINISTRATOR",
+    "restriction": "1",
+    "_id": "sBzHc",
+    "actions": [
+      { "time": "3", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "storage": "0", "varName": "", "name": "Start Typing" },
+      { "time": "4", "measurement": "1", "name": "Wait" },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "B-but.... Fuko isn't even..... tired yet....... zzZZzzZZ",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "storage": "0", "varName": "", "name": "Stop Typing" },
+      { "channel": "0", "varName": "", "name": "Join Voice Channel" },
+      {
+        "url": "https://www.youtube.com/watch?v=VsSmx0iIq1Q",
+        "seek": "0",
+        "volume": "",
+        "passes": "1",
+        "bitrate": "",
+        "type": "0",
+        "name": "Play YouTube Video"
+      },
+      { "status": "0", "loop": "0", "name": "Loop Queue" },
+      { "status": "2", "name": "Set Bot Status" }
+    ],
+    "comType": "1",
+    "_aliases": ["Sleep, Fuko"]
+  },
+  {
+    "name": "Wake up Fuko",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "XQIqd",
+    "actions": [
+      { "time": "5", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "time": "5", "measurement": "1", "name": "Wait" },
+      { "storage": "0", "varName": "", "name": "Start Typing" },
+      { "time": "4", "measurement": "1", "name": "Wait" },
+      { "action": "0", "name": "Control Audio" },
+      { "name": "Clear Queue" },
+      { "status": "1", "loop": "1", "name": "Loop Queue" },
+      { "name": "Leave Voice Channel" },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "...H-huh? Fuko wasn't sleeping!",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "storage": "0", "varName": "", "name": "Stop Typing" }
+    ],
+    "comType": "1",
+    "_aliases": ["Wake up, Fuko"]
+  },
+  {
+    "name": "Clear",
+    "permissions": "ADMINISTRATOR",
+    "restriction": "1",
+    "_id": "MxVGe",
+    "actions": [
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "status": "1", "name": "Set Bot Status" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      {
+        "channel": "0",
+        "count": "5",
+        "condition": "0",
+        "custom": "",
+        "varName": "",
+        "name": "Delete Bulk Messages"
+      }
+    ],
+    "comType": "0",
+    "_aliases": ["clr", "prune"]
+  },
+  {
+    "name": "End",
+    "permissions": "NONE",
+    "restriction": "4",
+    "_id": "gEZXF",
+    "actions": [
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      { "name": "Stop Bot" }
+    ]
+  },
+  {
+    "name": "Start",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "CoLNU",
+    "actions": [
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      {
+        "server": "0",
+        "varName": "",
+        "dataName": "GameStart",
+        "comparison": "1",
+        "value": "1",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "3",
+        "iffalseVal": "2",
+        "name": "Check Server Data"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "Ending game...",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "call": "60", "name": "Jump to Action" },
+      {
+        "server": "0",
+        "varName": "",
+        "dataName": "GameStart",
+        "defaultVal": "0",
+        "storage": "1",
+        "varName2": "Begin",
+        "name": "Store Server Data"
+      },
+      {
+        "channel": "0",
+        "varName": "Channel",
+        "message": "The game is starting! Please react with 👌 to join!",
+        "storage": "1",
+        "varName2": "React",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      {
+        "storage": "1",
+        "varName": "React",
+        "emoji": "4",
+        "varName2": "👌",
+        "varName3": "",
+        "name": "Add Reaction"
+      },
+      {
+        "storage": "1",
+        "varName": "React",
+        "filter": "reaction.emoji.name === '👌'",
+        "max": "10",
+        "time": "60000",
+        "maxEmojis": "10",
+        "maxUsers": "",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "0",
+        "iffalseVal": "4",
+        "storage2": "0",
+        "varName2": "",
+        "name": "Await Reaction Call Action"
+      },
+      {
+        "message": "1",
+        "varName": "React",
+        "info": "1",
+        "find": "👌",
+        "storage": "1",
+        "varName2": "ReactionName",
+        "name": "Find Reaction"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "storage": "1",
+        "varName2": "Bot",
+        "name": "Get Bot as Member"
+      },
+      {
+        "reaction": "1",
+        "varName": "ReactionName",
+        "member": "2",
+        "varName2": "Bot",
+        "name": "Remove Reaction"
+      },
+      {
+        "reaction": "1",
+        "varName": "ReactionName",
+        "info": "4",
+        "storage": "1",
+        "varName2": "Reactions",
+        "name": "Store Reaction Info"
+      },
+      {
+        "reaction": "1",
+        "varName": "ReactionName",
+        "info": "2",
+        "storage": "2",
+        "varName2": "People",
+        "name": "Store Reaction Info"
+      },
+      {
+        "storage": "1",
+        "varName": "Reactions",
+        "comparison": "3",
+        "value": "2",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "3",
+        "iffalseVal": "2",
+        "name": "Check Variable"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "Not enough players, the game has ended!",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "name": "End Action Sequence" },
+      {
+        "channel": "0",
+        "varName": "",
+        "message": "Preparing the game",
+        "storage": "1",
+        "varName2": "Edit",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "dataName": "GameStart",
+        "changeType": "0",
+        "value": "1",
+        "name": "Control Server Data"
+      },
+      {
+        "storage": "1",
+        "varName": "Edit",
+        "message": "Preparing the game.",
+        "storage2": "1",
+        "varName2": "",
+        "name": "Edit Message"
+      },
+      {
+        "channelName": "The Game",
+        "position": "3",
+        "storage": "1",
+        "varName": "Category",
+        "name": "Create Category Channel"
+      },
+      {
+        "storage": "1",
+        "varName": "Edit",
+        "message": "Preparing the game..",
+        "storage2": "1",
+        "varName2": "",
+        "name": "Edit Message"
+      },
+      {
+        "category": "1",
+        "varName": "Category",
+        "info": "0",
+        "storage": "1",
+        "varName2": "ID",
+        "name": "Store Category Info"
+      },
+      {
+        "channelName": "Game",
+        "categoryID": "${tempVars(\"ID\")}",
+        "topic": "Let's play",
+        "position": "",
+        "storage": "1",
+        "varName": "Channel",
+        "name": "Create Text Channel"
+      },
+      {
+        "storage": "1",
+        "varName": "Edit",
+        "message": "Preparing the game...",
+        "storage2": "1",
+        "varName2": "",
+        "name": "Edit Message"
+      },
+      {
+        "info": "1",
+        "find": "Players",
+        "storage": "1",
+        "varName": "GameRole",
+        "name": "Find Role"
+      },
+      {
+        "member": "3",
+        "varName2": "People",
+        "role": "3",
+        "varName": "GameRole",
+        "name": "Add Member Role"
+      },
+      {
+        "storage": "1",
+        "varName": "Edit",
+        "message": "Done!",
+        "storage2": "1",
+        "varName2": "",
+        "name": "Edit Message"
+      },
+      {
+        "reaction": "1",
+        "varName": "ReactionName",
+        "info": "6",
+        "storage": "1",
+        "varName2": "Leader",
+        "name": "Store Reaction Info"
+      },
+      {
+        "channel": "5",
+        "varName": "Channel",
+        "message": "You're it ${tempVars(\"Leader\")}! How long do you need to come up with something? Respond with the number of seconds\nEx: \"60\"",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      {
+        "member": "2",
+        "varName": "Leader",
+        "info": "1",
+        "storage": "1",
+        "varName2": "LeaderID",
+        "name": "Store Member Info"
+      },
+      {
+        "storage": "3",
+        "varName": "Channel",
+        "filter": "author.id === '${tempVars(\"LeaderID\")}'",
+        "max": "1",
+        "time": "60000",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "3",
+        "iffalseVal": "5",
+        "storage2": "1",
+        "varName2": "Response",
+        "name": "Await Response Call Action"
+      },
+      {
+        "member": "2",
+        "varName": "Leader",
+        "info": "6",
+        "storage": "1",
+        "varName2": "LastMess",
+        "name": "Store Member Info"
+      },
+      {
+        "list": "7",
+        "varName": "Response",
+        "start": "",
+        "middle": "",
+        "end": "\\n",
+        "storage": "1",
+        "varName2": "Answer",
+        "sort": "1",
+        "name": "Convert List to Text"
+      },
+      {
+        "storage": "1",
+        "varName": "Answer",
+        "conversion": "0",
+        "storage2": "1",
+        "varName2": "Time",
+        "name": "Convert Variable"
+      },
+      { "storage": "1", "varName": "LastMess", "name": "Delete Message" },
+      { "time": "${tempVars(\"Time\")}", "measurement": "1", "name": "Wait" },
+      {
+        "channel": "5",
+        "varName": "Channel",
+        "message": "How many characters will your answer be? Count up~\nEX: \"12345\"",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      {
+        "storage": "3",
+        "varName": "Channel",
+        "filter": "author.id === '${tempVars(\"LeaderID\")}'",
+        "max": "1",
+        "time": "60000",
+        "iftrue": "3",
+        "iftrueVal": "2",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "storage2": "1",
+        "varName2": "Length",
+        "name": "Await Response Call Action"
+      },
+      {
+        "channel": "5",
+        "varName": "Channel",
+        "message": "No characters given, game has ended!",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "name": "End Action Sequence" },
+      {
+        "list": "7",
+        "varName": "Length",
+        "start": "",
+        "middle": "",
+        "end": "\\n",
+        "storage": "1",
+        "varName2": "LastNum",
+        "sort": "1",
+        "name": "Convert List to Text"
+      },
+      {
+        "member": "2",
+        "varName": "Leader",
+        "info": "6",
+        "storage": "1",
+        "varName2": "LastMess",
+        "name": "Store Member Info"
+      },
+      { "storage": "1", "varName": "LastMess", "name": "Delete Message" },
+      {
+        "channel": "5",
+        "varName": "Channel",
+        "message": "The game has started ${tempVars(\"GameRole\")}!\n\n${tempVars(\"Leader\")}, react on the next message with 👌 when someone has guessed the full sentence correctly!\n\nand respond with the same numbers but the correct numbers edited to letters, if someone guessed a letter correctly\n\nEx: \"A 1a3t5 67s9\"\n\nGuess the below characters:",
+        "storage": "1",
+        "varName2": "Result",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      {
+        "channel": "5",
+        "varName": "Channel",
+        "message": "${tempVars(\"LastNum\")}",
+        "storage": "1",
+        "varName2": "TheEnd",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      {
+        "storage": "1",
+        "varName": "TheEnd",
+        "emoji": "4",
+        "varName2": "👌",
+        "varName3": "",
+        "name": "Add Reaction"
+      },
+      {
+        "message": "1",
+        "varName": "TheEnd",
+        "info": "1",
+        "find": "👌",
+        "storage": "1",
+        "varName2": "ReactionName2",
+        "name": "Find Reaction"
+      },
+      {
+        "reaction": "1",
+        "varName": "ReactionName2",
+        "info": "2",
+        "storage": "1",
+        "varName2": "PeopleReact",
+        "name": "Store Reaction Info"
+      },
+      {
+        "list": "7",
+        "varName": "PeopleReact",
+        "start": "",
+        "middle": "",
+        "end": "\\n",
+        "storage": "1",
+        "varName2": "LastReact",
+        "sort": "1",
+        "name": "Convert List to Text"
+      },
+      {
+        "storage": "1",
+        "varName": "LastReact",
+        "comparison": "5",
+        "value": "tempVars(\"Leader\")",
+        "iftrue": "3",
+        "iftrueVal": "4",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Check Variable"
+      },
+      {
+        "storage": "3",
+        "varName": "Channel",
+        "filter": "author.id === '${tempVars(\"LeaderID\")}'",
+        "max": "1",
+        "time": "60000",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "2",
+        "iffalseVal": "49",
+        "storage2": "1",
+        "varName2": "Next",
+        "name": "Await Response Call Action"
+      },
+      {
+        "list": "7",
+        "varName": "Next",
+        "start": "",
+        "middle": "",
+        "end": "\\n",
+        "storage": "1",
+        "varName2": "SendNext",
+        "sort": "1",
+        "name": "Convert List to Text"
+      },
+      {
+        "member": "2",
+        "varName": "Leader",
+        "info": "6",
+        "storage": "1",
+        "varName2": "LastMess",
+        "name": "Store Member Info"
+      },
+      { "storage": "1", "varName": "LastMess", "name": "Delete Message" },
+      {
+        "storage": "1",
+        "varName": "TheEnd",
+        "message": "${tempVars(\"SendNext\")}",
+        "storage2": "1",
+        "varName2": "",
+        "name": "Edit Message"
+      },
+      { "call": "52", "name": "Jump to Action" },
+      {
+        "channel": "5",
+        "varName": "Channel",
+        "message": "You win! Game ending~",
+        "storage": "0",
+        "varName2": "",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Send Message"
+      },
+      { "time": "30", "measurement": "1", "name": "Wait" },
+      { "storage": "3", "varName": "Channel", "name": "Delete Channel" },
+      { "storage": "3", "varName": "Category", "name": "Delete Channel" },
+      {
+        "source": "XpMQo",
+        "list": "7",
+        "varName": "People",
+        "tempVarName": "Members",
+        "type": "true",
+        "name": "Loop Through List"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "dataName": "GameStart",
+        "changeType": "0",
+        "value": "0",
+        "name": "Control Server Data"
+      },
+      { "name": "End Action Sequence" }
+    ]
+  },
+  {
+    "name": "Reset",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "MwEYz",
+    "actions": [
+      { "time": "1", "measurement": "1", "name": "Wait" },
+      { "storage": "0", "varName": "", "name": "Delete Message" },
+      {
+        "server": "0",
+        "varName": "",
+        "dataName": "GameStart",
+        "changeType": "0",
+        "value": "0",
+        "name": "Control Server Data"
+      }
+    ],
+    "comType": "0"
+  }
+]
